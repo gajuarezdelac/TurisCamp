@@ -9,7 +9,6 @@ import static com.services.turiscamp.constant.FileConstant.JPG_EXTENSION;
 import static com.services.turiscamp.constant.FileConstant.NOT_AN_IMAGE_FILE;
 import static com.services.turiscamp.constant.FileConstant.USER_FOLDER;
 import static com.services.turiscamp.constant.FileConstant.USER_IMAGE_PATH;
-import static com.services.turiscamp.constant.UserImplConstant.EMAIL_ALREADY_EXISTS;
 import static com.services.turiscamp.constant.UserImplConstant.FOUND_USER_BY_USERNAME;
 import static com.services.turiscamp.constant.UserImplConstant.NO_USER_FOUND_BY_EMAIL;
 import static com.services.turiscamp.constant.UserImplConstant.NO_USER_FOUND_BY_USERNAME;
@@ -281,10 +280,7 @@ public class UserServiceImpl implements IUserService, UserDetailsService{
             }
             return null;
         }
-    }
-
-
-    
+    }    
     
 	
 }

@@ -41,9 +41,6 @@ public class User implements Serializable {
 		private String username;
 		
 		@Column(nullable = false)
-		private String businessName;
-		
-		@Column(nullable = false)
 	    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
 		private String password;
 		
@@ -66,6 +63,5 @@ public class User implements Serializable {
 		
 	    private Date lastLoginDate;
 	    
-	    private Date lastLoginDateDisplay;
-	
+	    private Date lastLoginDateDisplay;	
 }
